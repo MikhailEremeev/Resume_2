@@ -1,0 +1,238 @@
+<!-- Сообщаем браузеру как стоит обрабатывать эту страницу -->
+<!DOCTYPE html>
+<!-- Оболочка документа, указываем язык содержимого -->
+<html lang="ru">
+<!-- Заголовок страницы, контейнер для других важных данных (не отображается) -->
+
+<head>
+	<!-- Заголовок страницы в браузере -->
+	<title>Mikhail_Eremeev_resume</title>
+	<!-- Подключаем CSS -->
+	<link rel="stylesheet" href="css/style.css">
+	<!-- Кодировка страницы -->
+	<meta charset="UTF-8">
+	<!-- Адаптив -->
+	<meta name="viewport" content="width=device-width">
+	<script src="https://kit.fontawesome.com/2cd40a5511.js" crossorigin="anonymous"></script>
+</head>
+<!-- Отображаемое тело страницы -->
+
+<body>
+	<!-- Оболочка для демонстрации -->
+	<div class="wrapper">
+		<!-- Контент -->
+		<header class="header">
+			<div class='container'>
+				<div class="header__body">
+					<a href="#" class="header__logo">
+						<img src="img/logo1.png" alt="">
+					</a>
+					<div class="header__title"><span>Mikhail Eremeev</span> <br>Junior FrontDev</div>
+					<div class="header__burger">
+						<span></span>
+					</div>
+					<nav class="header__menu">
+						<ul class="header__list">
+							<li class="menu__item">
+								<a href="#skils" class="header__link">Навыки</a>
+							</li>
+							<li class="menu__item">
+								<a href="#education" class="header__link">Образование</a>
+							</li>
+							<li class="menu__item">
+								<a href="#expiriens" class="header__link">Опыт</a>
+							</li>
+							<li class="menu__item">
+								<a href="#portfolio" class="header__link">Портфоли</a>
+							</li>
+							<li class="menu__item">
+								<a href="#contact" class="header__link">Контакты</a>
+							</li>
+
+						</ul>
+					</nav>
+				</div>
+			</div>
+		</header>
+		<main class="main">
+			<!-- Сайдбар (grid-элемент) -->
+			<aside class="sidebar">
+				<nav class="sidebar__menu">
+					<div class="sidebar__avatar">
+						<img src="img/avatar.jpg" alt="" class="sidebar__img">
+					</div>
+					<ul class="sidebar__list sidebar__list_info">
+						<li>Дата рождения: 23.07.1991</li>
+						<li>Город: Нижний Новгород, Айдын (Турция)</li>
+						<li>Семейное положение: Женат</li>
+						<li>Язык: Русский – носитель,</li>
+						<li>English – Intermediate</li>
+					</ul>
+					<div class="sidebar__contact" id="contact">
+						<div class="sidebar__contact_titel">Контакты</div>
+						<nav class="sidebar__list sidebar__list_contact">
+							<a><i class="fa-solid fa-phone"></i> +7 987 556 97 11</a>
+							<a href="mailto:rz3txg@mail.ru" target="_blank">
+								<i class="fa-regular fa-envelope"></i> rz3txg@mail.ru
+							</a>
+							<br><a href="https://www.facebook.com/profile.php?id=100002095892344" target="_blank"><i
+									class="fab fa-facebook"></i></a>
+							<a href="https://www.instagram.com/eremeev_mikhail_/" target="_blank"><i
+									class="fab fa-instagram"></i></a>
+							<a href="https://vk.com/id29154903" target="_blank"><i class="fab fa-vk"></i></a>
+							<!-- <a href="#" target="_blank"><i class="fab fa-mail"></i></a> -->
+							<a href="https://t.me/Mikhail_Eremeev" target="_blank"><i class="fab fa-telegram"></i></a>
+							<a href="https://wa.me/+79875569711" target="_blank"><i class="fab fa-whatsapp"></i></a>
+						</nav>
+					</div>
+					<div class="sidebar__about">
+						<div class="sidebar__about_titel">Обо мне</div>
+						<ul class="sidebar__list sidebar__list_about">
+							<li>Трудолюбие</li>
+							<li>Быстрая обучаемость</li>
+							<li>Общительность</li>
+						</ul>
+					</div>
+					<div class="sidebar__portfolio">
+						<div class="sidebar__portfolio_titel" id="portfolio">Портфолио</div>
+
+						<div class="sidebar__portfolio_subtitel">Junior FrontDev.</div>
+						<ul class="sidebar__list sidebar__list_portfolio">
+							<li><a href="https://mikhaileremeev.github.io/Elena_V3/" target="_blank"
+									class="sidebar__link">ENGLISH LANGUAGE COACH</a></li>
+							<li><a href="http://project5821491.tilda.ws/" target="_blank" class="sidebar__link">Tilda</a></li>
+							<li><a href="https://mikhaileremeev.github.io/organicOlives/" target="_blank"
+									class="sidebar__link">organic_olives</a></li>
+						</ul>
+
+						<div class="sidebar__portfolio_subtitel">Junior QA тестировал сайт "Wildberries" и торговую площадку
+							"Тут Растут".</div>
+						<ul class="sidebar__list sidebar__list_portfolio">
+							<li><a href="https://drive.google.com/drive/folders/1GutI144rix0XxDLIILLScDaWI2I28Rkv?usp=sharing"
+									target="_blank" class="sidebar__link">Портфолио</a></li>
+							<li><a href="http://cert.software-testing.ru/339587886539080265" target="_blank"
+									class="sidebar__link">Сертификат</a></li>
+						</ul>
+
+					</div>
+				</nav>
+			</aside>
+			<!-- Контент (grid-элемент) -->
+			<section class="content">
+				<div class="titel__content">
+					<div class="content__titel">
+						<h1>Михаил Еремеев</h1>
+					</div>
+					<div class="content__subtitel">
+						<h2>Junior FrontDev</h2>
+					</div>
+				</div>
+
+				<div class="content__content">
+					<div class="content__skils" id="skils">
+						<div class="content__skils skils">
+							<h3 class="skils__title">Навыки Junior FrontDev</h3>
+							<div class="skils__items">
+								<ul class="skils__list">
+									<div class="point"></div>
+									<li>HTML, CSS, SCSS, BEM</li>
+									<li>JS (не сложные конструкции для работы странички сайта)</li>
+									<li> Gulp, webpack</li>
+									<li>Figma, Photoshop</li>
+									<li>Wordpress, Tilda</li>
+									<li>Docker</li>
+									<li>Unix/Linux</li>
+								</ul>
+							</div>
+						</div>
+						<div class="content__skils skils">
+							<h3 class="skils__title">Навыки Junior QA</h3>
+							<div class="skils__items">
+								<ul class="skils__list">
+									<div class="point"></div>
+									<li>Знания SQL на уровне написания простых запросов.</li>
+									<li>Составление тест-кейсов (TestRail, Testlink).</li>
+									<li>Составление чек-листов (Ситечко).</li>
+									<li>Локализация, оформление багов и улучшение в баг трекинговых системах (Mantis, Bugzilla,
+										Jira, Redmine).</li>
+									<li>Функциональное тестирование Web-сайта.</li>
+									<li>Тестирование документации (в т.ч. варианты использования).</li>
+									<li>Основные техники тест – дизайна классы эквивалентности, граничные значения.</li>
+									<li>Основные техники тест анализа State Transitional Testing, Decision Table, pairwise.</li>
+									<li>Исследовательское тестирование по турам (Исследовательские туры Уиттакера, мнемоники).
+									</li>
+									<li>Составление mindmap проекта.</li>
+									<li>Тестирую на площадках https://www.utest.com/ и https://testlio.com/</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="content__education" id="education">
+						<div class="content__education education">
+							<h3 class="education__title">Образование</h3>
+							<div class="education__items">
+
+								<div class="education__item">
+									2008-2014 Нижегородский Государственный Технический Университет НГТУ им. Р.Е. Алексеева
+									Специальность: Проектирование технических и технологических комплексов.
+								</div>
+								<div class="education__item">
+									05.2022-07.2022 ШКОЛА ДЛЯ НАЧИНАЮЩИХ ТЕСТИРОВЩИКОВ – Россия, Москва.
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="content__expiriens" id="expiriens">
+						<div class="content__expiriens expiriens">
+							<h3 class="expiriens__title">Опыт работы</h3>
+							<div class="expiriens__subtitle"><span>WEST-RU Engineering</span> Stamping Process Planning
+								(06.2016 – 12.2021)</div>
+							<div class="expiriens__items">
+								<div class="expiriens__item system">
+									<div class="system__titel">
+										Systems: CATIA V5, Autoform
+									</div>
+									<div class="system__item">
+										<ul class="system__list">
+											<li>1. Работа над созданием МП совместно с немецкими коллегами из Ebz Bm Form Tec GmbH.
+											</li>
+											<li>2. Поддержка DIE Design при создании рабочих поверхностей.</li>
+											<li>3. Совместная работа с немецкими коллегами по созданию Hemming process.</li>
+											<li>4. Создание milling surface для европейских и китайских заказчиков.</li>
+											<li>5. Моделирование формообразующих операций и создание AF симуляций.</li>
+											<li>6. Создание и работа с 2D документацией.</li>
+										</ul>
+									</div>
+								</div>
+								<div class="expiriens__item level">
+									<div class="level__titel">
+										Достижения:
+									</div>
+									<div class="level__item">
+										<ul class="level__list">
+											<li>Разработка проектной документации в 100% соответствии с требованиями стандарта
+												заказчика по каждому проекту; технические расчеты для разрабатываемых проектов;</li>
+											<li>Уверенное знание английского языка, обсуждение проектов на митингах Самостоятельное
+												управление проектами.</li>
+											<li>Обеспечение строгого соблюдения всех применимых сроков.</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
+		<footer class="footer">
+			<div class="footer__copy">Eremeev Mikail, 2022</div>
+			<div class="footer__text">Большой путь начинается с шага</div>
+		</footer>
+	</div>
+	<!-- Подключаем jQuery -->
+	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+	<!-- Подключаем файл JS скриптов -->
+	<script src="js/script.js"></script>
+</body>
+
+</html>
